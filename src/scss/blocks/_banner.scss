@@ -1,0 +1,108 @@
+.banner {
+    display: flex;
+    align-items: flex-end;
+    background-color: $primaryBackgroundColor;
+    min-height: 340px;
+    height: 50vh;
+    max-height: 500px;
+    overflow: hidden;
+
+    @include respond(tablet) {
+        max-height: none;
+        height: auto;
+    }
+
+    @include respond(mobile) {
+        max-height: none;
+        height: auto;
+    }
+
+    &__container {
+        display: flex;
+        align-items: flex-end;
+
+        @include respond(tablet) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @include respond(mobile) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__content {
+        padding-left: 60px;
+        width: 60%;
+        margin-bottom: 60px;
+        animation: moveLeft 0.5s forwards;
+
+        @include respond(tablet) {
+            text-align: center;
+            padding-left: 0;
+            width: 100%;
+            padding-top: 100px;
+        }
+
+        @include respond(mobile) {
+            text-align: center;
+            padding-left: 0;
+            width: 100%;
+            padding-top: 50px;
+        }
+    }
+
+    &__welcome {
+        color: $accentColor;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 40px;
+
+        @include respond(mobile) {
+            font-size: calc(18px + 0.5vw);
+        }
+    }
+
+    &__title {
+        margin-top: 12px;
+        display: block;
+        color: $secondaryTextColor;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 85%;
+
+        @include respond(mobile) {
+            font-size: calc(24px + 0.5vw);
+        }
+    }
+
+    &__image {
+        display: flex;
+        align-items: flex-end;
+
+        & img {
+            width: 100%;
+            transform: translateX(2000px);
+            animation: moveRight 0.5s 0.2s forwards;
+        }
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(2000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

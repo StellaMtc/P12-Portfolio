@@ -1,0 +1,41 @@
+.filter {
+    background-color: $accentColor;
+    border-radius: 25px;
+    padding: 8px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+
+    @include respond(mobile) {
+        gap: 0;
+        padding: 5px;
+        margin: 0 15px 10px 15px;
+        align-self: stretch;
+    }
+
+    &__button {
+        display: block;
+        padding: 5px 15px;
+        color: white;
+        min-width: 75px;
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        @include respond(tablet) {
+            font-size: 16px;
+        }
+
+        @include respond(mobile) {
+            font-size: calc(8px + 0.3vw);
+            padding: 1px 3px;
+            flex-grow: 1;
+        }
+
+        &--active {
+            background-color: white;
+            color: $accentColor;
+            border-radius: 25px;
+        }
+    }
+}
