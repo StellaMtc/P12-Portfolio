@@ -35,10 +35,10 @@
                 { "url": "/assets/projects/booki1000w.webp", "type": "webp" },
                 { "url": "/assets/projects/booki1000w.jpg", "fallback": true }
             ],
-            "github": "https://github.com/robinmaxime/OCProject2.git",
-            "link": "https://robinmaxime.github.io/OCProject2/",
+            "github": "https://github.com/StellaMtc/Booki",
+            "link": "https://stellamtc.github.io/Booki/",
             "technologies": ["html", "css"],
-            "year": 2023,
+            "year": 2024,
             "education": true
         },
         {
@@ -69,7 +69,6 @@
                 }
             ],
             "github": "https://github.com/StellaMtc/Portfolio-architecte-Sophie-Bluel",
-            "link": "https://robinmaxime.github.io/Portfolio-architecte-sophie-bluel-master/FrontEnd/",
             "technologies": ["html", "css", "javascript"],
             "year": 2024,
             "education": true
@@ -163,7 +162,39 @@
             "github": "https://github.com/StellaMtc/kasa",
             "link": "https://kasa-ten-omega.vercel.app/",
             "technologies": ["html", "sass", "react"],
-            "year": 2023,
+            "year": 2024,
+            "education": true
+        },
+        {
+            "id": 6,
+            "title": "Argent Bank",
+            "description": "Projet fictif de banque en ligne.",
+            "context": "Implémentation du front-end d'une application bancaire en utilisant React et Redux via des appels de l'API REST",
+            "challenge": "Dans ce projet, il a fallu afficher les données du back-end sur l'interface via des appels API,configurer des routes API pour la communication client / serveur,puis implémenter la gestion des données avec Redux pour assurer le fonctionnement du front-end,et enfin utiliser Swagger pour documenter et décrire les différentes routes et actions nécessaires pour l'API.",
+            "categoryId": [2],
+            "images": [
+                {
+                    "url": "/assets/projects/AB400w.webp",
+                    "type": "webp",
+                    "media": "(max-width: 600px)"
+                },
+                {
+                    "url": "/assets/projects/AB700w.webp",
+                    "type": "webp",
+                    "media": "(min-width: 601px) and (max-width: 900px)"
+                },
+                {
+                    "url": "/assets/projects/AB1000w.webp",
+                    "type": "webp"
+                },
+                {
+                    "url": "/assets/projects/AB1000w.jpg",
+                    "fallback": true
+                }
+            ],
+            "github": "https://github.com/StellaMtc/ArgentBank",
+            "technologies": ["html", "css", "javaScript", "react","reactRouter","Redux","API","MongoDb","sass"],
+            "year": 2024,
             "education": true
         },
         {
@@ -193,10 +224,10 @@
                     "fallback": true
                 }
             ],
-            "github": "https://github.com/robinmaxime/portfolio.git",
-            "link": "https://www.maximerobindev.com",
+            "github": "https://github.com/StellaMtc/P12-Portfolio",
+            "link": "",
             "technologies": ["html", "sass", "react"],
-            "year": 2023,
+            "year": 2024,
             "education": true
         }
     ]

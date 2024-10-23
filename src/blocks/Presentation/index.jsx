@@ -17,11 +17,11 @@ function Presentation() {
                     <h2 className="presentation__title">Présentation</h2>
                     <p>
                         Bonjour, moi c'est Estelle MITCHOVITCH,{' '}
-                        <strong>développeur web junior</strong> ! Passionnée par
+                        <strong>développeur web junior</strong> spécialisée dans le <strong>front-end</strong> ! Passionnée par
                         les nouvelles technologies, j'ai découvert le code il y
                         a quelque temps et cela m'a immédiatement captivée.
                         J'ai donc pris la décision de me reconvertir en tant
-                        que développeuse web en suivant
+                        qu'<strong>intégrateur web</strong> en suivant
                         une <strong>formation diplômante</strong> chez
                         OpenClassrooms.
                     </p>

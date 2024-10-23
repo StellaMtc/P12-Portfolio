@@ -16,7 +16,7 @@ function Header() {
 
     const blocks = ['banner', 'presentation', 'skills', 'projects', 'contact'];
 
-    // Évènement au scroll : change l'apparence du header et change l'apparence du menu
+    // Évènement au scroll : change l'apparance du header et change l'apparance du menu
     function handleScroll() {
         changeHeaderApperance();
         changeMenuApperance();
@@ -73,8 +73,8 @@ function Header() {
         }
     }
 
-     // Observe l'évènement scroll
-     useEffect(() => {
+    // Observe l'évènement scroll
+    useEffect(() => {
         window.addEventListener('scroll', handleScroll);
     }, []);
 
@@ -85,7 +85,7 @@ function Header() {
                     onClick={(e) => smoothScroll(e, 'banner')}
                     className="header__logo"
                     src="/assets/logo.png"
-                    alt="logo de Estelle MITCHOVITCH"
+                    alt="logo de Maxime ROBIN"
                 />
 
                 <nav
