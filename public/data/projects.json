@@ -18,8 +18,8 @@
             "id": 1,
             "title": "Booki",
             "description": "Location d'appartement entre particuliers",
-            "context": "L'entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
-            "challenge": "Dans ce projet il a fallu respecter les spécifications et contraintes techniques regroupées dans la note de synthèse qui nous était fournie ainsi que la maquette. Il a fallu notamment que les cartes 'hébergement' soit cliquables dans leur entièreté, le site devait être responsive avec 3 breakpoints donnés et le code devait être passé aux validateurs W3C.",
+            "context": "L'entreprise Booki souhaite développer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé de l'intégration de l'interface du site en HTML et CSS.",
+            "challenge": "Dans ce projet, il a fallu respecter les spécifications et contraintes techniques définies dans la note de synthèse fournie, ainsi que la maquette. En particulier, les cartes hébergement devaient être entièrement cliquables, le site devait être responsive avec trois breakpoints définis, et le code devait être validé par les validateurs W3C.",
             "categoryId": [1],
             "images": [
                 {
@@ -45,8 +45,8 @@
             "id": 2,
             "title": "Sophie Bluel",
             "description": "Portfolio de Sophie Bluel, architecte intérieur",
-            "context": "Notre cliente, Sophie Bluel, souhaite que nous lui développions un portfolio avec ses différents projets d'architecte. J'ai été chargé de développer la partie front-end en Javascript.",
-            "challenge": "Dans ce projet, il a fallu que je développe les fonctions de la page de présentation, la page de connexion de l'administrateur du site et la modale permettant d'uploader de nouveaux médias. Il a fallu faire en sorte que le site se mette à jour sans qu'il n'y ait de rafraichissement de la page en manipulant le DOM.",
+            "context": "Notre cliente, Sophie Bluel, souhaite que nous développions un portfolio pour présenter ses divers projets en architecture. J'ai été chargé du développement de la partie front-end en JavaScript.",
+            "challenge": "Dans ce projet, j'ai développé les fonctionnalités de la page de présentation, de la page de connexion pour l'administrateur, ainsi que la modale permettant l'upload de nouveaux médias. J'ai également veillé à ce que le site se mette à jour dynamiquement sans rechargement de page, en manipulant le DOM.",
             "categoryId": [1],
             "images": [
                 {
@@ -77,8 +77,8 @@
             "id": 3,
             "title": "Menu Maker By Qwenta",
             "description": "Planifier le développement du site Menu Maker By Qwenta",
-            "context": "Notre client Qwenta souhaite faire développer un 'Menu Maker', site permettant aux restaurateurs d'afficher et de mettre  en page leurs menus facilement. J'ai été chargé de préparer et planifier le projet.",
-            "challenge": "Dans ce projet en AGILE, il a fallu commencer par développer un système de veille qui pourrait être réutilisé par l'équipe. Dans un second temps, il a fallu remplir les spécifications techniques du projet en justifiant mes choix. Enfin, j'ai dû faire la planification du projet via un logiciel (Notion) à travers des KANBAN et un diagramme de GANTT et présenter tout cela au client.",
+            "context": "Notre client, Qwenta, souhaite développer un MenuMaker, un site permettant aux restaurateurs d'afficher et de mettre en page leurs menus de manière simple et efficace. J'ai été chargé de la préparation et de la planification du projet.",
+            "challenge": "Dans ce projet en méthodologie AGILE, j'ai d'abord développé un système de veille destiné à être réutilisable par l'équipe. Ensuite, j'ai complété les spécifications techniques du projet en justifiant chacun de mes choix. Enfin, j'ai planifié l'ensemble du projet à l'aide d'un outil collaboratif (Notion), en utilisant un tableau KANBAN, pour présenter clairement l'avancement et les étapes au client.",
             "categoryId": [4],
             "images": [
                 {
@@ -109,8 +109,8 @@
             "id": 4,
             "title": "Nina Carducci",
             "description": "Optimisation du site d'une photographe : Nina Carducci",
-            "context": "Nina Carducci possède un portfolio comprenant beaucoup d'images. Son site n'est pas bien optimisé et quelques bugs sont présents. Après audit, je lui propose d'optimiser les images, le code et sa structure de son site et de corriger les bugs. ",
-            "challenge": "Dans ce projet, il a fallu faire un audit LightHouse avant/après pour voir d'où venaient les soucis d'optimisation. J'ai donc travaillé sur l'optimisation des images (taille, format, etc), sur la minification des fichiers JS et CSS et sur l'optimisation SEO (notamment des rich snippets). Il a également fallu travailler sur l'accessibilité en réorganisant le code et en respectant les règles de la WCAG. J'ai enfin corrigé les bugs présents dans le code Javascript.",
+            "context": "Nina Carducci dispose d'un portfolio riche en images, mais son site manque d'optimisation et présente quelques bugs. Après un audit, je lui propose d'optimiser les images, le code et la structure du site, ainsi que de corriger les bugs existants. ",
+            "challenge": "Dans ce projet, un audit Lighthouse avant et après intervention a permis d'identifier les problèmes d'optimisation. J'ai donc travaillé sur l'optimisation des images (taille, format, etc.), la minification des fichiers JS et CSS, ainsi que l'optimisation SEO (notamment avec des rich snippets). J'ai également amélioré l'accessibilité en réorganisant le code selon les normes WCAG et corrigé les bugs présents dans le code JavaScript.",
             "categoryId": [1],
             "images": [
                 {
@@ -142,8 +142,8 @@
             "id": 5,
             "title": "Kasa",
             "description": "Créez une application web de location immobilière avec React",
-            "context": "Je suis recruté par Kasa, leader de la location d'appartements entre particuliers, en tant que freelance pour développer sa nouvelle platforme web. Le site a été codé il y a plus de 10 ans en ASP.NET et j'ai été chargé de recoder le site en React.",
-            "challenge": "Dans ce projet, il a fallu partir de la maquette fournie et coder depuis zéro le front-end avec React et React Router Dom. Parmi les défis à relever : créer différentes routes dans le routeur, créer des boites de texte ouvrables et fermables, créer un carroussel cyclique et enfin rediriger vers une page d'erreur en cas d'erreur d'URL. Tout le site devait être responsive.",
+            "context": "Kasa, leader dans la location d'appartements entre particuliers, m'a recruté en tant que freelance pour développer sa nouvelle plateforme web. Le site, initialement codé il y a plus de dix ans en ASP.NET, doit être entièrement recodé en React, tâche dont j'ai été chargé.",
+            "challenge": "Dans ce projet, j'ai développé le front-end en React et React Router Dom à partir de la maquette fournie. Les principaux défis incluaient la création de différentes routes dans le routeur, la mise en place de boîtes de texte ouvrables et fermables, la conception d'un carrousel cyclique, et la redirection vers une page d'erreur en cas d'URL incorrecte. L'ensemble du site devait également être responsive.",
             "categoryId": [1],
             "images": [
                 {
@@ -201,8 +201,8 @@
             "id": 7,
             "title": "Mon portfolio",
             "description": "Créer mon propre portfolio",
-            "context": "Afin de démontrer mes compétences acquises lors de ma formation, il a fallu que j'imagine et crée mon portfolio décrivant les projets effectués",
-            "challenge": "Dans ce projet, il a fallu que je développe en peu de temps mon portfolio depuis 0. J'ai donc conçu mon site avec une courte description, un carroussel (bibliothèque externe) exposant mes compétences ainsi que des cards cliquables ouvrant une modale exposant le projet réalisé. J'ai choisi de faire mon portfolio en React et en Sass pour continuer à me former sur ces technologies. Les données sont stockées dans un fichier Json.",
+            "context": "Pour démontrer les compétences acquises durant ma formation, j'ai conçu et réalisé mon portfolio, présentant les projets que j'ai réalisés.",
+            "challenge": "Dans ce projet, j'ai développé mon portfolio de A à Z en un temps limité. J'ai conçu le site avec une brève description, un carrousel (utilisant une bibliothèque externe) pour exposer mes compétences, ainsi que des cartes cliquables ouvrant une modale pour présenter chaque projet réalisé. J'ai choisi d'utiliser React et Sass pour renforcer mes compétences sur ces technologies, avec les données stockées dans un fichier JSON.",
             "categoryId": [1],
             "images": [
                 {
@@ -225,7 +225,7 @@
                 }
             ],
             "github": "https://github.com/StellaMtc/P12-Portfolio",
-            "link": "",
+            "link": "https://p12-portfolio-ivory.vercel.app/",
             "technologies": ["html", "sass", "react"],
             "year": 2024,
             "education": true
